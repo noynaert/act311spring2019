@@ -3,7 +3,7 @@
 
 ## About Code 
 
-* A Microsoft product <span style="font-size:larger;">:scream:</span>
+* A Microsoft product :scream:
   * VS stands for "Visual Studio"
   * Open source
   * Runs on Windows, Linux, Mac
@@ -15,7 +15,7 @@
 * Extensions to do almost anything
 * Coded in TypeScript
   * TypeScript is an advanced form of JavaScript
-  * TypeScript is also a Microsoft product <span style="font-size:larger;">:scream:</span>
+  * TypeScript is also a Microsoft product :scream:
   * It is configured like JavaScript.  Configuration options are set using JSON strings instead of clicking menus.
 
 ## Getting VS Code
@@ -30,8 +30,9 @@
 ## Main Controls
 
 
-<img src="codeIcons.png" style="float:left">
-From Top to Bottom:
+<img src="codeIcons.png" style="float:left" />
+
+### From Top to Bottom:
 
 * Folder & File
 * Find & Replace
@@ -39,6 +40,7 @@ From Top to Bottom:
 * Debug
 * Extensions
 
+### About the controls
 The controls are flyouts.  They take about half the screen when you press one of them.  To get rid of the image just click it again.
 
 The Folders & Files tab tends to want to work in a view that emphasizes the folder over files
@@ -53,8 +55,8 @@ Try installing sftp/ftp sync by liximomo, Github Markdown Preview, and Markdown 
 
 ** KEEP THE FLYOUT CLOSED UNLESS YOU NEED IT>
 
-<br style="clear:both">
 <hr>
+
 #### Just a note to me.  
   * Ctrl-k v shows markdown
   * [The all imporant emoji cheatsheet](https://www.webpagefx.com/tools/emoji-cheat-sheet/)
