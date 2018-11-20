@@ -2,7 +2,7 @@
 ## ACT 311, Spring 2019
 
 Week| DATE | Topic, Notes 
-----|:-----|:-----------
+:---:|:-----|:-----------
 01 | January 14 | 
 02 | January 21 | (MLK day) 
 03 | January 28 | 
