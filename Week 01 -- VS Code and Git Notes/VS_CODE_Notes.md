@@ -29,11 +29,32 @@
 
 ## Main Controls
 
-| Controls | Notes |
-|:---:|-----|
-| ![Icons on the  left of VS Code](codeIcons.png) | From top to Bottom the controls are Folders & Files, Search, Git, Debug, and Extensions.  |
+
+<img src="codeIcons.png" style="float:left">
+From Top to Bottom:
+
+* Folder & File
+* Find & Replace
+* Git
+* Debug
+* Extensions
+
+The controls are flyouts.  They take about half the screen when you press one of them.  To get rid of the image just click it again.
+
+The Folders & Files tab tends to want to work in a view that emphasizes the folder over files
 
 
+The blue  :two: means there are two files that are out of date in the git repository.  I find this to be the easiest git and GitHub interface available.
+
+
+The extensions tab is very flexible.  It allows you to search for extensions, but it also can serve as a help screen for extensions that are already installed.
+
+Try installing sftp/ftp sync by liximomo, Github Markdown Preview, and Markdown Preview Github Styling
+
+** KEEP THE FLYOUT CLOSED UNLESS YOU NEED IT>
+
+<br style="clear:both">
+<hr>
 #### Just a note to me.  
   * Ctrl-k v shows markdown
   * [The all imporant emoji cheatsheet](https://www.webpagefx.com/tools/emoji-cheat-sheet/)
