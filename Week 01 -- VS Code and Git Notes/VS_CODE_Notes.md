@@ -52,9 +52,9 @@ The extensions tab is very flexible.  It allows you to search for extensions, bu
 
 Try installing sftp/ftp sync by liximomo, Github Markdown Preview, and Markdown Preview Github Styling
 
-** KEEP THE FLYOUT CLOSED UNLESS YOU NEED IT>
+I suggest you *KEEP THE FLYOUT CLOSED UNLESS YOU NEED IT*
 
-#### Just a note to me.
+#### Just a note to me
 
 * Ctrl-k v shows markdown
 * [The all imporant emoji cheatsheet](https://www.webpagefx.com/tools/emoji-cheat-sheet/)
