@@ -1,9 +1,9 @@
 # VS Code Notes
-(https://4.bp.blogspot.com/-eKrR2PQa8NU/WuFILpzwHfI/AAAAAAAANmk/Fcli9c2owAE1xhQCVB0t6l36kP-o5NO6gCLcBGAs/s1600/vscode.png)
+![VS Code](https://4.bp.blogspot.com/-eKrR2PQa8NU/WuFILpzwHfI/AAAAAAAANmk/Fcli9c2owAE1xhQCVB0t6l36kP-o5NO6gCLcBGAs/s1600/vscode.png)
 
 ## About Code 
 
-* A Microsoft product :scream:
+* A Microsoft product <span style="font-size:larger;">:scream:</span>
   * VS stands for "Visual Studio"
   * Open source
   * Runs on Windows, Linux, Mac
@@ -15,7 +15,7 @@
 * Extensions to do almost anything
 * Coded in TypeScript
   * TypeScript is an advanced form of JavaScript
-  * TypeScript is also a Microsoft product :scream: 
+  * TypeScript is also a Microsoft product <span style="font-size:larger;">:scream:</span>
   * It is configured like JavaScript.  Configuration options are set using JSON strings instead of clicking menus.
 
 ## Getting VS Code
@@ -29,11 +29,9 @@
 
 ## Main Controls
 
-![Icons on the  left of VS Code](https://github.com/noynaert/act311spring2019/blob/master/Week%2001%20--%20VS%20Code%20and%20Git%20Notes/Screenshot%202018-11-20%2000:16:46.png)
-
 | Controls | Notes |
 |:---:|-----|
-| ![Icons on the  left of VS Code](https://github.com/noynaert/act311spring2019/blob/master/Week%2001%20--%20VS%20Code%20and%20Git%20Notes/Screenshot%202018-11-20%2000:16:46.png) | The controls are all "flyouts." |
+| ![Icons on the  left of VS Code](codeIcons.png) | From top to Bottom the controls are Folders & Files, Search, Git, Debug, and Extensions.  |
 
 
 #### Just a note to me.  
