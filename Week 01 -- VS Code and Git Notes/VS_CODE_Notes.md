@@ -31,7 +31,7 @@
 
 | Controls | Notes |
 |:---:|-----|
-| (Screenshot 2018-11-20 00:16:46.png) | The controls are all "flyouts." |
+| (https://github.com/noynaert/act311spring2019/blob/master/Week%2001%20--%20VS%20Code%20and%20Git%20Notes/Screenshot%202018-11-20%2000:16:46.png) | The controls are all "flyouts." |
 
 
 #### Just a note to me.  
