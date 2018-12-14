@@ -88,3 +88,7 @@ Generally we will just use a gui editor, but there are native editors built into
 
 * nano:  This is a fairly new editor, but it is on most unix systems.  It has a menu at the bottom.  ^ means press the Ctrl key.
 * vi  or vim:  This is the old-time unix editor.  It is very weird because it was written to use on old-style dumb terminals that did not even have arrow keys.  I am an old-timer, and I am weird, so I tend to use it.  When you see me do "vi" or "vim" just do nano.
+
+## Pasting into the terminal
+
+* Windows used to be hard because you needed to use the Edit option.  [This link](https://www.laptopmag.com/articles/how-to-windows-10-command-prompt-copy) shows how to make it easier in Windows 10.
