@@ -18,7 +18,7 @@
     * Values may be repeated.    
 * Sorting
   * ksort() sorts on the key
-  * vsort() sorts on the value
+  * sort() sorts on the value
 * Adding items by indexing
 * arraypush is not very useful for adding items to a associative array.
 * foreach operations
