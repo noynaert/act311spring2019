@@ -9,7 +9,14 @@
 ## Associative arrays
 
 * Called "Maps" in Java
-* Associative arrays are line numeric arrays.  Numeric arrays are more or less a special case of arrays.
+  *  $capital["Missouri"] = "Jefferson City";
+  *  $capital["Iowa"] = "Des Mointes";
+* Terms:
+  * The part in [ ] is called the "key"
+  * The item held in the array csll is called the "value"  
+* Sorting
+  * ksort() sorts on the key
+  * vsort() sorts on the value
 * Adding items by indexing
 * Adding items by arraypush
 * foreach operations
