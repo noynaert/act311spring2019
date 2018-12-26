@@ -1,10 +1,10 @@
 # Files and Tables
 
-"Any language that has explode() and die() as functions can't be all bad." -- former student
+**"Any language that has explode() and die() as functions can't be all bad."** -- former student
 
 ## File
 
-* Thee are several commands for using files
+* There are several commands for using files
   * We will use file().  It opens the file, *reads the file contents into an array of strings,* and closes the file.
   * You should always check to make sure the file operation happened successfully.
   * "die" is a useful command for debugging, but it is bad for production.
