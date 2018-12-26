@@ -1,0 +1,50 @@
+Alabama	Yellowhammer State	Montgomery	4833722
+Alaska	The Last Frontier	Juneau	735132
+Arizona	The Grand Canyon State	Phoenix	6626624
+Arkansas	The Natural State	Little Rock	2959373
+California	Golden State	Sacramento	38332521
+Colorado	The Centennial State	Denver	5268367
+Connecticut	Constitution State	Hartford	3596080
+Delaware	The First State / The Diamond State	Dover	925749
+Florida	Sunshine State	Tallahassee	19552860
+Georgia	Peach State	Atlanta	9992167
+Hawaii	Aloha State	Honolulu	1404054
+Idaho	Gem State	Boise	1612136
+Illinois	Prairie State	Springfield	12882135
+Indiana	Hoosier State	Indianapolis	6570902
+Iowa	Hawkeye State	Des Moines	3090416
+Kansas	Sunflower State	Topeka	2893957
+Kentucky	Bluegrass State	Frankfort	4395295
+Louisiana	Pelican State	Baton Rouge	4625470
+Maine	Pine Tree State	Augusta	1328302
+Maryland	Old Line State	Annapolis	5928814
+Massachusetts	Bay State	Boston	6692824
+Michigan	Wolverine State / Great Lakes State	Lansing	9895622
+Minnesota	North Star State / Land of 10,000 Lakes	Saint Paul	5420380
+Mississippi	Magnolia State	Jackson	2991207
+Missouri	Show Me State	Jefferson City	6044171
+Montana	Treasure State	Helena	1015165
+Nebraska	Cornhusker State	Lincoln	1868516
+Nevada	The Silver State	Carson City	2790136
+New Hampshire	Granite State	Concord	1323459
+New Jersey	Garden State	Trenton	8899339
+New Mexico	Land of Enchantment	Santa Fe	2085287
+New York	Empire State	Albany	19651127
+North Carolina	Old North State / Tar Heel State	Raleigh	9848060
+North Dakota	Peace Garden State / Flickertail State / Roughrider State	Bismarck	723393
+Ohio	Buckeye State	Columbus	11570808
+Oklahoma	Sooner State	Oklahoma City	3850568
+Oregon	Beaver State	Salem	3930065
+Pennsylvania	Keystone State	Harrisburg	12773801
+Rhode Island	The Ocean State	Providence	1051511
+South Carolina	Palmetto State	Columbia	4774839
+South Dakota	Mount Rushmore State	Pierre	844877
+Tennessee	Volunteer State	Nashville	6495978
+Texas	Lone Star State	Austin	26448193
+Utah	The Beehive State	Salt Lake City	2900872
+Vermont	Green Mountain State	Montpelier	626630
+Virginia	Old Dominion State	Richmond	8260405
+Washington	The Evergreen State	Olympia	6971406
+West Virginia	Mountain State	Charleston	1854304
+Wisconsin	Badger State	Madison	5742713
+Wyoming	Equality State	Cheyenne	582658
