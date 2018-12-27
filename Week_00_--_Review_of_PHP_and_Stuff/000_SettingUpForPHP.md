@@ -2,7 +2,7 @@
 
 ## Purposes of these reviews
 
-* We will need a little PHP
+* We will need a little PHP in ACT 311
 * Some concepts are common to all programming languages
   * functions, methods, subroutines
   * scope
