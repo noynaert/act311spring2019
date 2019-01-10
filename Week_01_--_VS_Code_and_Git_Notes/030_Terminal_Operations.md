@@ -77,6 +77,22 @@ Why would this be a problem? <span class="code">/images/file.png</span>
 | Copy a file                                  | cp    | copy               |
 | Clear the screen                             | clear | cls                |
 
+## Bash in VS Code in Windows
+
+We should be able to set Bash as the shell in VS Code on Windows.  The following steps might work.
+
+Go to File --> Preferences --> Settings, Then pick Features and Terminal. Then find the option for "External: Windows Exec."  
+
+If you have the Linux Integrated Subsystem installed, enter the following.
+
+    C:\\Windows\\sysnative\\bash.exe
+
+If you don't have the Linux Subsystem you can use gitbash.
+    
+    C:\\Program Files\\Git\\bin\\bash.exe
+
+
+
 ## Some tutorials
 
 * [82 part tutorial](https://www.youtube.com/playlist?list=PLS1QulWo1RIb9WVQGJ_vh-RQusbZgO_As)
