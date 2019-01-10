@@ -98,6 +98,14 @@ If you don't have the Linux Subsystem you can use gitbash.
 * [82 part tutorial](https://www.youtube.com/playlist?list=PLS1QulWo1RIb9WVQGJ_vh-RQusbZgO_As)
 * [Nixie Pixel video](https://www.youtube.com/watch?v=q7-aEspwwEI) I think she probably drinks too much caffein, but you might benefit by watching what she does.
 
+## Using Gitbash as the terminal in VScode
+
+This seems to be getting easier.  In the current version (1.30) it looks like the first time you open Code it asks what shell you want to use.  If you already have git and gitbash installed then gitbash should be an option.
+
+If not, you can go to File --> Preferences --> Settings, then pick "Features" and "Terminal."  Find the entry for "External: Windows exec:" and paste the following:
+
+    C:\Program Files\Git\bin\bash.exe
+
 ## Editors
 
 Generally we will just use a gui editor, but there are native editors built into linux.  Sometimes you just need them.
