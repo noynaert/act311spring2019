@@ -8,19 +8,41 @@
 
 * Stores "snapshots" of the files in your project.
 * You can go back to previous versions, even if you have made changes to your files after that point
+* Git makes it a lot easier to develop software on a team, or even by random outsiders
+* Git is also useful for a developer working alone
+  * Backup in case of system failure
+  * Ability to test ideas
+  * Ability to roll back to a stable edition
+  * Documentation of the development process
 
 ## GIT vs github.com
 
-There are a lot of remote sites that allow you to move your local GIT to a remote server.
+* There are a lot of remote sites that allow you to move your local GIT to a remote server.
+  * Bitbucket
+  * Gitbucket
+  * Github
+  * Many companies use their own internal hosting sites.
+
+### Purposes of remote sites
 
 * Backup
 * Sharing and coordination between developers.
 * Distributing information to the public
 * Github.com is one site that holds repositories, but it isn't the only one.
   * Bitbucket
+  * Gitbucket
   * Private GIT servers
 * Servers like Github and Bitbucket provide nice web interfaces.
-  * Private servers might not have those.  They still work fine, but you have to manipulate them using command line or remote GUI clients.
+  * Private servers might or might not have those.  They still work fine, but you have to manipulate them using command line or remote GUI clients.
+
+## The truth about learning GIT
+
+* https://xkcd.com/1597/
+  * Hover your mouse over the cartoon to get an accurate description of learning git
+  * There is truth in the cartoon, at least about the learning process
+  * GIT was developed by and for Linux kernal developers.  Those people are weird
+  * It is true that you learn git by using it.  Don't be afraid if you feel overwhelmed at first.
+
 
 ## Install GIT
 
@@ -72,14 +94,6 @@ In *nix (including Linux and Mac OS) files that start with a . are hidden files.
   * One of the mysterious commands for beginners is "git push origin master" moves the local master up to the remote URL.  You tend to do this at the beginning of the project.  After that you will probably be pushing named branches.
   * ***commit*** Basically a comment that identifies that change.  Standard advice is to use active voice.
 . ***.gitignore*** This is a simple text file that lists files that should not be tracked by the repo.  Your sftp.json should be a line in .gitignore.  The .gitignore file should be in the root of your project.
-
-## The truth about learning GIT
-
-* https://xkcd.com/1597/
-  * Hover your mouse over the cartoon to get an accurate description of learning git
-  * There is truth in the cartoon, at least about the learning process
-  * GIT was developed by and for Linux kernal developers.  Those people are weird
-  * It is true that you learn git by using it.  Don't be afraid if you feel overwhelmed at first.
 
 ## Some basic GIT operations
 
