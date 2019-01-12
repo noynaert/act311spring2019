@@ -12,9 +12,23 @@ There are different extensions to basic markdown.  Github has its own extensions
 * Markdown is converted to HTML
 * You can do inline HTML and Latex (mainly for equations), but it will typically set off lint programs Some platforms may not support it.
 
+### Some inline html
+
+<span style="color:orange">Hello</span>
+<hr/>
+
+### Some LaTeX
+
+$f(x) = x^2$
+
+$
+\mathit{dist} = 
+\sqrt{ \left( \frac{dx}{hx} \right)^{\!\!2} +  \left( \frac{dy}{hy} \right)^{\!\!2} +  \left( \frac{dz}{hz} \right)^{\!\!2}}
+$
+
 ## For VS Code
 
-* Tons of extensions.  I use "Markdown All in One" by Yu Zhang.
+* Tons of extensions.  I use "Markdown All in One" by Yu Zhang
 * Either
   * Look for it in the market or
   * Ctrl P to open the command window with Ctrl-P and paste the following:
