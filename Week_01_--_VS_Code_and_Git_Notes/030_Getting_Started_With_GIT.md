@@ -1,10 +1,10 @@
-# GIT
+# git
 
 ## History
 
 * [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds) ![Linus Torvalds](Torvalds.jpg)
 
-## GIT is a "Version Constrol System"
+## "git" is a "Version Control System"
 
 * Stores "snapshots" of the files in your project.
 * You can go back to previous versions, even if you have made changes to your files after that point
@@ -15,7 +15,7 @@
   * Ability to roll back to a stable edition
   * Documentation of the development process
 
-## GIT vs github.com
+## git vs github.com
 
 * There are a lot of remote sites that allow you to move your local GIT to a remote server.
   * Bitbucket
