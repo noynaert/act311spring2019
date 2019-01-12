@@ -28,10 +28,6 @@
 * Backup
 * Sharing and coordination between developers.
 * Distributing information to the public
-* Github.com is one site that holds repositories, but it isn't the only one.
-  * Bitbucket
-  * Gitbucket
-  * Private GIT servers
 * Servers like Github and Bitbucket provide nice web interfaces.
   * Private servers might or might not have those.  They still work fine, but you have to manipulate them using command line or remote GUI clients.
 
