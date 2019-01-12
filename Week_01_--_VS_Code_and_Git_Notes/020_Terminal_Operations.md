@@ -15,7 +15,7 @@
   * cmd -- Goes back to MS-DOS
   * PowerShell
   * bash
-  * gitbash -- comes with github
+  * gitbash -- comes with git
 
 ## Command Line
 
