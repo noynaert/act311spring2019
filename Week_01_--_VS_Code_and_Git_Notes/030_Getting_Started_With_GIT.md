@@ -61,10 +61,6 @@
 
 A Repository or repo is a project.
 
-* First method: To create a project, go to the root folder of your project and do "git init"  (Do not do it now.)
-* Second method: Create the repo on github.com.  Then clone the project to your own machine.  Github will automatically supply the code to copy paste to a terminal on your system
-* Third method: Use the utilities built into VS Code, Intellij, Eclipse, or whatever IDE you are using.  This is often tempting, but I find it the most problem-prone.
-
 ## Important local files and directories
 
 In *nix (including Linux and Mac OS) files that start with a . are hidden files.
@@ -89,7 +85,9 @@ In *nix (including Linux and Mac OS) files that start with a . are hidden files.
   * Master of the repo should be deployable after you get to a release stage.  Another way to say it, it should be your best working code.
   * One of the mysterious commands for beginners is "git push origin master" moves the local master up to the remote URL.  You tend to do this at the beginning of the project.  After that you will probably be pushing named branches.
   * ***commit*** Basically a comment that identifies that change.  Standard advice is to use active voice.
-. ***.gitignore*** This is a simple text file that lists files that should not be tracked by the repo.  Your sftp.json should be a line in .gitignore.  The .gitignore file should be in the root of your project.
+* ***push***  Moves the pending commits to the master branch on "origin" (the remote site)
+* ***pull***  Opposite of push.  It gets a fresh copy of the current repository and attempts to merge changes
+* ***pull request***  This is not a pull! It is a request to the owner of the repo to merge the code from a branch into the master (or a subbranch into its parent branch).
 
 ## Some basic GIT operations
 
