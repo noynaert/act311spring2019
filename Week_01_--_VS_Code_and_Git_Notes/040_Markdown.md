@@ -66,4 +66,4 @@ $
 
 Emoji cheatsheet: https://www.webfx.com/tools/emoji-cheat-sheet/
 
-This is a lot like HTML and LaTeX, except in this case github supports emoji, but preview does not.  So be careful.
+This is a lot like HTML and LaTeX, except in this case github supports emoji, but preview does not.  So be careful. :scream:
