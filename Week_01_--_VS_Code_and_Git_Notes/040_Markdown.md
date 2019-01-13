@@ -26,6 +26,7 @@ There are different extensions to basic markdown.  Github has its own extensions
 ## Cheatsheets!
 
 * Pretty good third-party cheatsheet https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+* [Github Markdown Documenation](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
 * [The official Github .pdf file](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## HTML and LaTeX in markdown
