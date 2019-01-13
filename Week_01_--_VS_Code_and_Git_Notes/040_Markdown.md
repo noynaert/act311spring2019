@@ -61,3 +61,9 @@ $
 \mathit{dist} = 
 \sqrt{ \left( \frac{dx}{hx} \right)^{\!\!2} +  \left( \frac{dy}{hy} \right)^{\!\!2} +  \left( \frac{dz}{hz} \right)^{\!\!2}}
 $
+
+## :star: Emogi :star:
+
+Emoji cheatsheet: https://www.webfx.com/tools/emoji-cheat-sheet/
+
+This is a lot like HTML and LaTeX, except in this case github supports emoji, but preview does not.  So be careful.
