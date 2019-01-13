@@ -10,21 +10,6 @@ There are different extensions to basic markdown.  Github has its own extensions
 
 * Markdown is meant to be simplified HTML
 * Markdown is converted to HTML
-* You can do inline HTML and Latex (mainly for equations), but it will typically set off lint programs Some platforms may not support it.
-
-### Some inline html
-
-<span style="color:orange">Hello</span>
-<hr/>
-
-### Some LaTeX
-
-$f(x) = x^2$
-
-$
-\mathit{dist} = 
-\sqrt{ \left( \frac{dx}{hx} \right)^{\!\!2} +  \left( \frac{dy}{hy} \right)^{\!\!2} +  \left( \frac{dz}{hz} \right)^{\!\!2}}
-$
 
 ## For VS Code
 
@@ -43,3 +28,36 @@ $
 * Pretty good third-party cheatsheet https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 * [The official Github .pdf file](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
+## HTML and LaTeX in markdown
+
+  
+You can do inline HTML and Latex (mainly for equations), but it will typically set off lint programs Some platforms may not support it.  Generally it is a bad idea to use html and LaTeX unless you know how it will look in the environments it will be seen in.
+
+Here is an example of some html.  It does not render in github, but it looks OK in VS Preview.  The moral is that you should avoid using raw html or LaTex if you can.
+
+\<span style="color:orange">Hello\</span>
+\<hr/>
+
+\$f(x) = x^2$
+
+\$
+\mathit{dist} = 
+\sqrt{ \left( \frac{dx}{hx} \right)^{\!\!2} +  \left( \frac{dy}{hy} \right)^{\!\!2} +  \left( \frac{dz}{hz} \right)^{\!\!2}}
+\$
+
+
+|As appears in vscode preview|As it appears on github.|
+|:---:|:---:|
+|HTML<br/> ![html preview](images/htmlPreview.png )|HTML<br/> ![github view](images/htmlGithub.png)|
+|Latex<br/> ![Latex in preview](images/latexPreview.png)|Latex<br/> ![github view](images/latexGithub.png)|
+
+<span style="color:orange">Hello</span>
+<hr/>
+
+
+$f(x) = x^2$
+
+$
+\mathit{dist} = 
+\sqrt{ \left( \frac{dx}{hx} \right)^{\!\!2} +  \left( \frac{dy}{hy} \right)^{\!\!2} +  \left( \frac{dz}{hz} \right)^{\!\!2}}
+$
