@@ -1,10 +1,6 @@
-<style>.red {color:red;font-weight:bold;}
-.code{font-family:"Lucida Console", Monaco, monospace; font-weight:bold}
-</style>
-
 # Terminal Operations
 
-<p class=red>The one near-universal rule of Terminal Operations:  Blank spaces in file names are 👿 evil 👿</p>
+**The one near-universal rule of Terminal Operations:  Blank spaces in file names are 👿 evil 👿**
 
 * **shell**: a user interface for access to an operating system's services.
 * Command Line Interface (CLI) vs GUI
