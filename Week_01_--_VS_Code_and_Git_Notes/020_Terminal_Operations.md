@@ -1,10 +1,6 @@
-<style>.red {color:red;font-weight:bold;}
-.code{font-family:"Lucida Console", Monaco, monospace; font-weight:bold}
-</style>
-
 # Terminal Operations
 
-<p class=red>The one near-universal rule of Terminal Operations:  Blank spaces in file names are 👿 evil 👿</p>
+**The one near-universal rule of Terminal Operations:  Blank spaces in file names are 👿 evil 👿**
 
 * **shell**: a user interface for access to an operating system's services.
 * Command Line Interface (CLI) vs GUI
@@ -15,7 +11,7 @@
   * cmd -- Goes back to MS-DOS
   * PowerShell
   * bash
-  * gitbash -- comes with github
+  * gitbash -- comes with git
 
 ## Command Line
 
@@ -76,6 +72,22 @@ Why would this be a problem? <span class="code">/images/file.png</span>
 | Rename a file                                | mv    | rename             |
 | Copy a file                                  | cp    | copy               |
 | Clear the screen                             | clear | cls                |
+
+## Bash in VS Code in Windows
+
+We should be able to set Bash as the shell in VS Code on Windows.  The following steps might work.
+
+Go to File --> Preferences --> Settings, Then pick Features and Terminal. Then find the option for "External: Windows Exec."  
+
+If you have the Linux Integrated Subsystem installed, enter the following.
+
+    C:\\Windows\\sysnative\\bash.exe
+
+If you don't have the Linux Subsystem you can use gitbash.
+    
+    C:\\Program Files\\Git\\bin\\bash.exe
+
+
 
 ## Some tutorials
 
