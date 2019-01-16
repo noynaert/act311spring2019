@@ -6,6 +6,11 @@
 * ***Back End*** -- What happens on the server
 * ***Full Stack*** -- Both front end and back end.
 
+## JavaScript's role
+
+* Started as purely front end
+* "Node" or "Node.js" added the backend
+* So now JavaScript may be either frontend, backend,or full Stack
 
 ## Packages to install.
 
