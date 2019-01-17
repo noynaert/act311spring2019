@@ -38,5 +38,5 @@ Whats your favorite pokemon? Whatever it is, it can't compare to this guy here h
 
 **The best Pokemon**
 
-![GitHub Logo](/images/logo.png)
-Format: ![Eevee](URL)
+![Eevee](images/eevee-lets-go.jpg)
+
