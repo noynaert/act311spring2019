@@ -2,7 +2,6 @@
 
 ![BOM Picture](/IMAGES/bom_pic.JPG)
 
-
 ## Education
 
 * Missouri Western State University
