@@ -1,6 +1,6 @@
-# Brenda Lee O'Meara
+# Brenda  O'Meara
 
-![BOM Picture](/IMAGES/bom_pic.JPG)
+![BOM Picture](/images/bom_pic.JPG)
 
 ## Education
 
