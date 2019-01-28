@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="top">Something</h1>
+
+    <p>FirstName 
+        <input type="text" id="firstName" onchange="showName()"/">
+    </p>
+    <script>
+    function showName(){
+        let input = document.getElementById("firstName");
+        let name = input.value;
+        let heading = document.getElementById("top");
+        heading.innerHTML = name;
+        //alert("Yo, " + name);
+    }
+    </script>
+</body>
+</html>
