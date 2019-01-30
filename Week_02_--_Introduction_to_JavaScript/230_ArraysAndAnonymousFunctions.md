@@ -2,7 +2,7 @@
 
 ## Arrays, in general
 
-* JavaScript only has numerically indexed arrays. THere are no associative arrays
+* JavaScript only has numerically indexed arrays. There are no associative arrays
 * Creating Arrays
 
 ```javascript
@@ -45,3 +45,22 @@
        }
    ];
   ```
+
+  ## Callback functions and foreach
+
+  The foreach method uses a "callback function" as an argument.  Callback functions freak people out, but they are very simple.  In Java they are usually called "lambda functions."
+
+  ### Basic Function
+
+  ```javascript
+       //If you just need the item
+       list.forEach(function(item){console.log("Item is " + item) });
+
+       //or, if you need the item and the index
+       list.forEach(function(item, index){"Item: "+item+" Index: '+index}));
+  ```
+  Note the funky punctuation at the end 
+  
+       });
+
+We will see it a lot.
