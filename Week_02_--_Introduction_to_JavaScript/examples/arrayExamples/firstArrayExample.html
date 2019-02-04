@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <title>first array example</title>
+</head>
+<body>
+    <ul id="courseList"></ul>
+
+
+
+<script>
+let courses = ["ACT 311", "ACT 301", "CSC 184", 'CSC 164'];
+
+let courseLines = "";
+for(let i=0; i < courses.length; i++){
+    courseLines += "<li>" + courses[i] + "</li>";
+}
+
+document.getElementById("courseList").innerHTML = courseLines;
+
+</script>    
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>foreach</title>
+</head>
+<body>
+    <script>
+    let name = ["Bob","Ted","Carol", "Alice"];
+    
+    //print each name to the console
+    name.forEach(function(item){console.log("Item is " + item);});
+
+    name.forEach(function(name, i){
+        console.log(i + ". " + name);
+    });
+
+    </script>
+</body>
+</html>
