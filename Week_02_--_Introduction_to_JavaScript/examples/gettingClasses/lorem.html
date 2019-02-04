@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+</head>
+<body>
+<h1>Lorem</h1>
+<div class="shady">
+<h2>Eminem</h2>
+<p>Marshall Bruce Mathers III was born on October 17, 1972 in Saint Joseph, Missouri.</p>
+<p>My tea's gone cold. I'm wondering why I got out of bed at all. The morning rain clouds up my window. And I can't see at all. And even if I could it'd all be gray. But your picture on my wall. It reminds me that it's not so bad, it's not so bad.</p>
+<p>My tea's gone cold. I'm wondering why I got out of bed at all. The morning rain clouds up my window. And I can't see at all. And even if I could it'd all be gray. But your picture on my wall. It reminds me that it's not so bad, it's not so bad.</p>
+</div>    
+<div class="classic">
+    <p>Cillum minim fugiat consectetur esse ea velit et esse amet culpa.</p>
+    <p>Sint commodo cupidatat voluptate do exercitation adipisicing proident ipsum qui nulla esse.</p>
+</div>
+<p class="shady"> story of Shady’s origin.</p>
+<p class="classic">Ipsum nostrud ea consectetur laborum elit nisi proident officia eiusmod.</p>
+<div id="controls">
+    <button onclick="makeShady('#808080')">Make Shady</button>
+    <br><br>
+    <button onclick="unshade()">Unshadify</button>
+</div>
+<script>
+function makeShady(theColor){
+    let shadyGroup = document.getElementsByClassName("shady");
+    console.log("The group is " + shadyGroup);
+
+    //convert the collection to an array
+    let shadyArray = Array.from(shadyGroup);
+    console.log("The array is " + shadyArray);
+
+    shadyArray.forEach(function(e){
+        console.log(e);
+        e.style.backgroundColor = theColor;
+    });
+}
+function unshade(){
+    makeShady('white');
+}
+
+</script>
+
+</body>
+</html>
