@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Does anybody really know what time it is?</title>
+    <style>
+        #ajaxTarget{
+            min-height: 5em;
+            width: 30em;
+            padding: .6em;
+            background-color:pink;
+            border: dashed 3px purple;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ajaxing</h1>
+    <p>
+        <button onClick="getServerTime()">Update Time</button>
+    </p>
+    <p id=ajaxTarget>I am the target</p>
+    <script src="timeServer.js"></script>
+</body>
+</html>
