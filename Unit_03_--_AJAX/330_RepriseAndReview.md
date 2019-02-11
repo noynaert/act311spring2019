@@ -2,9 +2,9 @@
 
 ## GET method
 
-GET is an html "verb" that is used to specify what informatoin is to be retreived from a url
+GET is an http "verb" that is used to specify what information is to be retreived from a url.
 
-GET data is embedded in the url itself
+GET data is embedded in the url itself.
 
 ### Symbols
 * ? Starts the argument list
