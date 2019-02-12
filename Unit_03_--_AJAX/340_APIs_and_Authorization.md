@@ -5,6 +5,8 @@
 There are a lot of different things called "API."  They all mean "Application Programming
 Interface."
 
+List of free API's:  https://github.com/toddmotto/public-apis
+
 ## Market realities
 
 Providing information seems like one of those things that seems cheap, but it can get expensive quickly.
@@ -28,3 +30,8 @@ Methods of controlling access to the API
 ## Attribution
 
 * Most free and some paid sites require attribution or credit.  Always check arround the site for attribution requirements.
+
+## API styles
+
+* Some use GET or other HTTP verbs
+* Some are "Restful."
