@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="news.css">
+    <title>Headlines</title>
+</head>
+<body>
+    <h1>News</h1>
+
+    <div>
+        Key words <input type="text" id="searchWord" onchange="getByKeyword()">
+        <br><br>
+        <button onclick="justHeadlines()">Get the headlines</button>
+    </div>
+
+    <div id="news"></div>
+
+<footer>
+    <hr/>
+    Attribution: Powered by <a href="https://newsapi.org">NewsAPI.org</a>
+</footer>
+<script src="newsAjax.js"></script>
+<script>
+    function getByKeyword(){
+        let keywords = document.getElementById("searchWord").value;
+        getNews(keywords);
+    }
+    function justHeadlines(){
+        getNews(null);
+    }
+
+</script>
+</body>
+</html>
