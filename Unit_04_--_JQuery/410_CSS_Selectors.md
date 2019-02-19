@@ -46,3 +46,19 @@ For example, the following would select all elements in a div with an id of "tar
 ```CSS
 #target * {color:purple;}
 ```
+## A subtle benefit of selectors
+
+Sometimes the selectors let you get away without making classes and ids. For this purpose I think the "blank space" connector is the most useful.
+
+Here is an example.
+
+```html
+<div id="state">
+    <p>I live in <span>Missour</span> which is known as the <span>"Show Me" State</span>.
+</div>
+```
+If we use the following CSS, we can change the appearance of the data in the spans without creating a class name for the spans.
+
+```css
+#state span {color:blue;}
+```
