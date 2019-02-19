@@ -31,7 +31,7 @@ table,td,th,tr {border: 1px solid black;}
 ```
 The above are the ones you have probably seen most often.  Just use a tag name, . for classes, and # for ids.  Commas can be used to apply several selectors to the same style.  Tables is probably the most common use of the commas.
 
-## But Wait :exclamation:  There's More :exclamation:
+## But Wait:exclamation:  There's More:exclamation:
 
 * See [this list](https://www.sltrib.com/religion/2018/10/01/commentary-more-mormon/)
 * There are a lot of CSS selector cheat sheets.  Some are bad, some are good.  They all seem to try to explain and demo the selectors differently.  Find some that speak to you.
