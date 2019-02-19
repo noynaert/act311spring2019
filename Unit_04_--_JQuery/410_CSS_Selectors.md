@@ -33,7 +33,7 @@ The above are the ones you have probably seen most often.  Just use a tag name, 
 
 ## But Wait:exclamation:  There's More:exclamation:
 
-* See [this list](https://www.sltrib.com/religion/2018/10/01/commentary-more-mormon/)
+* See [this list](https://www.w3schools.com/cssref/css_selectors.asp)
 * There are a lot of CSS selector cheat sheets.  Some are bad, some are good.  They all seem to try to explain and demo the selectors differently.  Find some that speak to you.
 * A really good demo is at [this link](https://www.w3schools.com/cssref/trysel.asp)  You just click on the links on the left. and you will see the expanation and the effect.
 
