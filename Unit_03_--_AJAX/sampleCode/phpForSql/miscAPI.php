@@ -5,7 +5,6 @@ require('utility.php');
 $fields = null;
 $table = null;
 $where = null;
-$limit = 0;
 
 if( isset($_GET['fields']) ){
     $fields = htmlspecialchars($_GET['fields']);
@@ -18,14 +17,9 @@ if( isset($_GET['where'])){
     $where = $_GET['where'];
 }
 
-
-
-
-
-
 $qString = "SELECT $fields FROM $table";
 if($where){
-    $qString = "$qstring WHERE $where";
+    $qString = "$qString WHERE $where";
 }
 //fetch the data
 $data = getData($qString);
