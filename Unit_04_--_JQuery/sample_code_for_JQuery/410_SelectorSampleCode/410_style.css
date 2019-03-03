@@ -1,0 +1,28 @@
+#state span {color:blue;}
+#state * {border: 1px solid black;}
+
+#literature>p {color:pink;}
+
+h2:hover {background-color:orange;}
+
+a:link, a:visited {color:gray;}
+a:hover { color:blue;}
+a:active{ background-color:gray;}
+
+
+#card {height:100px;
+    width:69px;
+    background:url("ace_of_hearts.png")no-repeat;
+    display:inline-block;     
+}
+#card:hover {background:url("ace_of_spades2.png")no-repeat;}
+#card:active{background:url("10_of_diamonds.png")no-repeat;}
+
+#literature>p:first-child:first-letter {
+    color:red;
+    float:left;
+    font-family:Georia;
+    font-size:75px;
+    line-height:60px;
+    border:1px solid silver;
+}
