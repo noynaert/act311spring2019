@@ -19,7 +19,7 @@ JQuery underlies a lot of things like Bootstrap that are built on top of it.
 * JQuery used to be important because it fixed browser compatability issues.
 * JQuery simplifies the bulk of raw JavaScript.
   * "document.getElementByID("#states") becomes $("#states")
-  * Getting things like classes or tags is even worse because you get a collection of objects that must be converted to arrays.  In JQuery you don't need to use an array or loop through with a forEach.   #("p") gets all the &lt;p&gt; elements and lets you do something with them.
+  * Getting things like classes or tags is even worse because you get a collection of objects that must be converted to arrays.  In JQuery you don't need to use an array or loop through with a forEach.   $("p") gets all the &lt;p&gt; elements and lets you do something with them.
   * You can get events as well as elements.
 * JQuery adds a lot of its own functionality.  Some are annimations like fade.
 * JQuery has functions to make AJAX easier.
