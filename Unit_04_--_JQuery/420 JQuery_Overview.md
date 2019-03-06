@@ -32,6 +32,8 @@ $ is just an alias for jQuery.
 
 So $("p") is just a function call to jQuery("p")
 
+## Why we aren't going to do much jQuery
+
 ## Miscellaneous Fact
 
 * 1 second has 1000 milliseconds.
