@@ -4,14 +4,14 @@
 
 https://jquery.com/download/
 
-### Uncompressed and Compressed or "Minified"
+## Uncompressed and Compressed or "Minified"
 
 * Uncompressed -- 
   * For Debugging
   * For Customizing (customize, then minify it yourself)
 * Compressed or "Minified" -- For Production
 
-### To Download or Not To Download, that is the question
+## To Download or Not To Download, that is the question
 
 * Downloading the code to your folder
   * Gives you direct control of what the user gets
@@ -28,20 +28,3 @@ https://jquery.com/download/
     * Google has its CDN servers all over the world, and your call to a CDN will get the closest one to the user
     * The user may already have it cached on their machine so they don't have to download it at all.
 
-## $( document ).ready() 
-
-### Fixes the problem of when JavaScript loads
-
-* Sometimes you need the elements to load so JavaScript can grab them (so put &lt;script>&gt; tag at the end
-* Sometimes the JavaScript needs to be loaded first, (so put &lt;script&gt; tag at the top).
-* The $(document).ready() method fixes this.  It is a function that happens after the document html loads, but before the images and media.
-
-### The .ready() method takes an anonymous function. 
-
-### Alternative syntax
-
-* $ready()
-* Just $() and put an anonymous function in it
-* Several other options
-
-### And example with a handler
