@@ -31,3 +31,9 @@ The function is called "jQuery."
 $ is just an alias for jQuery.  
 
 So $("p") is just a function call to jQuery("p")
+
+## Miscellaneous Fact
+
+* 1 second has 1000 milliseconds.
+* 2 seconds is the same as 2000 milliseconds
+* Half a second is 500 milliseconds
