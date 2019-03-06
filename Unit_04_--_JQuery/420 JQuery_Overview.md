@@ -8,7 +8,7 @@ Copy/Paste the following line into the &lt;head&gt; of your document.  There are
 
 The essense of JQuery has been described as "Get something. Do something with it."
 
-    $("#states").fadeOut(10000);
+    $("#state").fadeOut(10000);
 
 Usually the "Do Something" is more involved.  It is often one or more anonymous functions.
 
