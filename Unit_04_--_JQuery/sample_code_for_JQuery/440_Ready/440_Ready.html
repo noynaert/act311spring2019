@@ -11,7 +11,41 @@
             #literature img {display:none;}
        </style>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    
+    <script>
+        function snoopy(){
+            console.log("It was a dark and stormy night");
+            $("#literature img").slideDown(2000);
+            $("#literature button").slideUp(2000);
+        }
+        $(document).ready(function(){
+            console.log("I am ready!");
+
+            //Change the css of the header
+            $("h1").css("color","red");
+
+            //Adding a class to the h2
+            $("h2").addClass("highlight");
+
+            //Activate the "click" listener
+            $('#showSnoopy').click(function(){
+                snoopy();
+            }); //end of click on showSnoopy
+
+            $("li").hover(function(){
+                $(this).addClass("highlight");
+            }, 
+            function(){
+                $(this).removeClass("highlight");
+            });//end of line hover
+
+            //fetch the picked city on change and plug it into the h4 tag
+            $("#pickCity").change(function(){
+                let city = $(this).val();
+                $("#pickedCity").html("City is " + city);
+            });
+
+        });//end of document ready
+  </script>
 </head>
 <body>
     <div id=header>
@@ -63,9 +97,7 @@
     <div id="card">
         <img alt="Ace of Hearts" src="https://raw.githubusercontent.com/noynaert/act311spring2019/master/Unit_04_--_JQuery/sample_code_for_JQuery/410_SelectorSampleCode/ace_of_hearts.png">
     </div>
-    <script>
     
-    </script>
 
 </body>
 </html>

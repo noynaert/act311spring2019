@@ -14,4 +14,35 @@
 * Just $() and put an anonymous function in it
 * Several other options
 
-### And example with a handler
+### And example with several handlers
+
+```javascript
+        $(document).ready(function(){
+            console.log("I am ready!");
+
+            //Change the css of the header
+            $("h1").css("color","red");
+
+            //Adding a class to the h2
+            $("h2").addClass("highlight");
+
+            //Activate the "click" listener
+            $('#showSnoopy').click(function(){
+                snoopy();
+            }); //end of click on showSnoopy
+
+            $("li").hover(function(){
+                $(this).addClass("highlight");
+            }, 
+            function(){
+                $(this).removeClass("highlight");
+            });//end of line hover
+
+            //fetch the picked city on change and plug it into the h4 tag
+            $("#pickCity").change(function(){
+                let city = $(this).val();
+                $("#pickedCity").html("City is " + city);
+            });
+
+        });//end of document ready
+```
