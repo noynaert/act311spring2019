@@ -2,7 +2,10 @@
 
 ## $.ajax(url, options)
 
-The URL is straightforward.  The Cross-Domain References (CORS) must still be observed.
+The URL is straightforward.  
+
+* We still need to encode the URL (but I avoided url encoding in my example)
+* The Cross-Domain References (CORS) must still be observed.
 
 ### Options
 There are a lot of options.  See https://www.w3schools.com/jquery/ajax_ajax.asp
