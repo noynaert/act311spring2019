@@ -18,22 +18,11 @@ I am only going to use 3 options.  We could have done these things with our raw 
 ```javascript
 			{	timeout: 1000,
 
-				success: function(data){
-					console.log(data);
-					$("#name").html( data.name );
-					$("#displayDiv").css("color","black");
-					$("#hair").html(data.hair_color);
+				success: function(result, status, xhr){
+					
 				},
 				
 				error: function(xhr,status,errorMessage){
-					console.log("header is" + JSON.stringify(xhr));
-					$("#displayDiv").css("color","red");
-
-					if(xhr.status == 0){
-						$("#displayDiv").html("Server Timed out.")
-					}else{
-						$("#displayDiv").html("There was a problem with the request");
-					}
 					
 				}
 			}
