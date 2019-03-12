@@ -19,7 +19,7 @@ I am only going to use 3 options.  We could have done these things with our raw 
 			{	timeout: 1000,
 
 				success: function(result, status, xhr){
-					
+					       //This is where we would have called the display() method
 				        },
 				
 				error: function(xhr,status,errorMessage){
