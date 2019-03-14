@@ -3,6 +3,52 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Star Wars who's who</title>
+	<style>
+		#displayDiv { color: white;}
+	</style>
+	<script
+	src="http://code.jquery.com/jquery-3.3.1.min.js"
+	integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	crossorigin="anonymous"></script>
+
+	<script>
+	$(document).ready(function(){
+		console.log("I am ready!");	
+		$("#number").change(function(){
+			let characterNumber = $(this).val();
+			console.log("Character number is " + characterNumber);	
+			$("#displayDiv").css("color", "red");
+
+			let url = "https://swapi.co/api/people/" + characterNumber +
+			            "/?format=json";
+			console.log("The url is " + url);
+
+			let options = {
+				timeout: 1000,
+
+				success: function(result,status,xhr){
+					//what would have been our display() function
+					console.log(result);
+					$("#name").html(result.name);
+					$("#hairColor").html(result.hair_color);
+					$("#displayDiv").css("color", "black");
+				},
+
+				error: function(xhr,status,error){
+					console.log(xhr);
+					if(xhr.readyState < 4){
+						$("#displayDiv").html("The request timed out");
+					}else{
+						$("#displayDiv").html("There was a problem with the request.");
+					}
+				}
+
+			};
+
+			$.ajax(url, options);
+		});	
+	});
+	</script>
 </head>
 <body>
 	<h1>Who's Who in Star Wars</h1>
