@@ -29,27 +29,27 @@ Notice the use of an object
 
 ```html
 <div ng-app = "mainApp" ng-controller = "placeController">
-				City: <input type = "text" ng-model = "place.city"><br>
-				<br>
-				State: <input type = "text" ng-model = "place.state"><br>
-				<br>
-				You are entering: {{place.fullName()}}
-			 </div>
-			 
-			 <script>
-				var mainApp = angular.module("mainApp", []);
-				
-				mainApp.controller('placeController', function($scope) {
-				   $scope.place = {
-					  city: "St. Joseph",
-					  state: "Missouri",
-					  
-					  fullName: function() {
-						 var where;
-						 where = $scope.place;
-						 return where.city + " " + where.state;
-					  }
-				   };
-				});
-			 </script>
+	City: <input type = "text" ng-model = "place.city"><br>
+	<br>
+	State: <input type = "text" ng-model = "place.state"><br>
+	<br>
+	You are entering: {{place.fullName()}}
+	</div>
+	
+	<script>
+	var mainApp = angular.module("mainApp", []);
+	
+	mainApp.controller('placeController', function($scope) {
+		$scope.place = {
+			city: "St. Joseph",
+			state: "Missouri",
+			
+			fullName: function() {
+				var where;
+				where = $scope.place;
+				return where.city + " " + where.state;
+			}
+		};
+	});
+	</script>
 ```
