@@ -4,12 +4,37 @@ Udemy course: https://www.udemy.com/share/1000imAEQcdllXRQ==/
 
 ## Single Page Application
 
+* Only one page loads
+* As much work as possible happens in the Browser
+* Very responsive
+* Can frustrate ACT102 students.  When you view the source there often is very little HTML
+
+## Framework
+
+From [Wikipedia](https://en.wikipedia.org/wiki/Software_framework)
+
+* The framework controls the flow of control.
+* The developer controls the application by placing components in specific places.
+* Funtionality can be controlled by overriding methods
+
+### MVC Frameworks
+
+Most modern frameworks uses some variation of "Model View Controller"
+
+* Model -- The data and the buisiness logic
+* View -- Just displays the data.  Has as little logic as possible.  Ideally there is no logic.  The saying is "Keep your view stupid."
+* Controller -- This varies.  Lots of people have variations on the names and its function.  The dividing line between the controller and model is sometimes a bit fuzzy.
+
+Angular is said to use MV* which is read as "Model-View-Whatever."
+
 ## Versions of Angular
+
 
 ### Angular 1, now called AngularJS
 
 *	Uses JavaScript
 *	About as easy to include as jQuery.  CDN is available.
+*   It is technically a framework, but it isn't as "frameworky" as later versions of Angular.
 
 ### Angular 2 through 7
 
