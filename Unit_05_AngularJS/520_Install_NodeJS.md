@@ -7,7 +7,7 @@
 
 ```bash
     sudo apt update
-    sudo apt install nodejs node-typescript npm
+    sudo apt install nodejs npm
 ```
 
 ### Confirm Installation
